@@ -1,0 +1,79 @@
+name: point_transformer_v2
+dataset: semanticbridge
+collator: point
+ending: .ply
+loops: 1
+voxel_size: 0.08
+data_dir: /data/dataset/
+save_dir: results/transformer_v2_bridge
+apply_transform: True
+bound:
+  - 3
+  - 3
+  - 3
+train:
+  bs: 2
+  lr: 0.001
+  mom: 0.9
+  wd: 0.0001
+  ep: 800
+  gamma: 0.98
+model:
+  in_channels: 6
+  num_classes: 9
+  patch_embed_depth: 1
+  patch_embed_channels: 48
+  patch_embed_groups: 6
+  patch_embed_neighbours: 8
+  enc_depths:
+    - 2
+    - 2
+    - 6
+    - 2
+  enc_channels:
+    - 96
+    - 192
+    - 384
+    - 512
+  enc_groups:
+    - 12
+    - 24
+    - 48
+    - 64
+  enc_neighbours:
+    - 16
+    - 16
+    - 16
+    - 16
+  dec_depths:
+    - 2
+    - 2
+    - 2
+    - 2
+  dec_channels:
+    - 48
+    - 96
+    - 192
+    - 384
+  dec_groups:
+    - 6
+    - 12
+    - 24
+    - 48
+  dec_neighbours:
+    - 16
+    - 16
+    - 16
+    - 16
+  grid_sizes:
+    - 0.08
+    - 0.16
+    - 0.24
+    - 0.48
+  attn_qkv_bias: True
+  pe_multiplier: False
+  pe_bias: True
+  attn_drop_rate: 0.0
+  drop_path_rate: 0
+  enable_checkpoint: False
+  unpool_backend: "map"

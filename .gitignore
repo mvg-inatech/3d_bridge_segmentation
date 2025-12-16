@@ -7,6 +7,11 @@ __pycache__/
 *.las
 *.ply
 
+results/
+
+# devcontainer
+.devcontainer/devcontainer.json
+
 # C extensions
 *.so
 
@@ -18,7 +23,6 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
 lib64/
 parts/
 sdist/
