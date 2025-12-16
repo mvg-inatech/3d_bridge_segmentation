@@ -1,0 +1,10 @@
+laspy==2.4.1
+tensorboard==2.13.0
+prettytable==3.16.0
+six==1.17.0
+scipy==1.10.1
+pybind11==2.7.1
+pykeops==2.2.3
+timm==1.0.14
+einops==0.8.0
+plyfile==1.1

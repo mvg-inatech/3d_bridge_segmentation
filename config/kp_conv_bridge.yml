@@ -1,0 +1,35 @@
+name: kp_conv
+dataset: semanticbridge
+collator: point
+ending: .ply
+loops: 1
+voxel_size: 0.08
+data_dir: /data/dataset/
+save_dir: results/kp_conv_bridge
+apply_transform: True
+bound:
+  - 3
+  - 3
+  - 3
+train:
+  bs: 2
+  lr: 0.001
+  mom: 0.9
+  wd: 0.0001
+  ep: 800
+  gamma: 0.98
+model:
+  basic_voxel_size: 0.08
+  in_channels: 4
+  num_classes: 9
+  num_stages: 5
+  kernel_size: 15
+  kpconv_radius: 2.5
+  kpconv_sigma: 2.0
+  init_dim: 64
+  neighbor_limits:
+    - 24
+    - 40
+    - 34
+    - 35
+    - 34
