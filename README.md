@@ -1,11 +1,11 @@
 # 3d bridge segmentation
 
-The objective of the present project is the automated creation of digital twins for existing bridge structures. To this end, the initial step involves semantic segmentation of the provided point clouds prior to subsequent processing. This Repo contains the following works:
+The objective of the present project is the automated creation of digital twins for existing bridge structures. To this end, the initial step involves semantic segmentation of the provided point clouds prior to subsequent processing. This repository contains:
 1. A set of 23 synthetic bridges that were scanned and annotated automatically
-2. A set of 20 real world bridges scanned and manually annotated
+2. A set of 20 real-world bridges scanned and manually annotated
 3. Simple basic starting code to train 3 different 3D models for large 3D point cloud scenes
 
-For more details we refere to the following two paper:
+For more details we refer to the following two paper:
 - [3D bridge segmentation using semi-supervised domain adaptation](https://www.sciencedirect.com/science/article/pii/S0926580525000615?via%3Dihub)
 - [SemanticBridge - A Dataset for 3D Semantic Segmentation of Bridges and Domain Gap Analysis](HUI)
 
@@ -101,7 +101,7 @@ The real data can be downloaded [here](https://www.ipm.fraunhofer.de/)
 
 ## Citation
 
-This synthetic data was created for the work presented in [3D bridge segmentation using semi-supervised domain adaptation](https://www.sciencedirect.com/science/article/pii/S0926580525000615). The real world data are created in corperation with the Department of Engineering, Cambridg. If you find our work useful in your research, please consider citing:
+This synthetic data was created for the work presented in [3D bridge segmentation using semi-supervised domain adaptation](https://www.sciencedirect.com/science/article/pii/S0926580525000615). The real world data are created in cooperation with the Department of Engineering, Cambridge. If you find our work useful in your research, please consider citing:
 
 ```
 @article{SemanticBridge,
