@@ -7,7 +7,7 @@ The objective of the present project is the automated creation of digital twins 
 
 For more details we refer to the following two paper:
 - [3D bridge segmentation using semi-supervised domain adaptation](https://www.sciencedirect.com/science/article/pii/S0926580525000615?via%3Dihub)
-- [SemanticBridge - A Dataset for 3D Semantic Segmentation of Bridges and Domain Gap Analysis](HUI)
+- [SemanticBridge - A Dataset for 3D Semantic Segmentation of Bridges and Domain Gap Analysis](https://arxiv.org/abs/2512.15369)
 
 ## Code
 
@@ -97,7 +97,7 @@ The following real-world bridges are for testing purposes:
 
 The synthetic data can be downloaded via the [mobilithek](https://mobilithek.info/offers/829756627880919040).
 
-The real data can be downloaded [here](https://www.ipm.fraunhofer.de/)
+The real data can be downloaded via the [mobilithek](https://mobilithek.info/offers/939531201542860800)
 
 ## Citation
 
@@ -105,25 +105,27 @@ This synthetic data was created for the work presented in [3D bridge segmentatio
 
 ```
 @article{SemanticBridge,
-title = {SemanticBridge - A Dataset for 3D Semantic Segmentation of Bridges and Domain Gap Analysis},
-year = {2025},
-doi = {https://doi.org/10.1016/j.autcon.2025.106021},
-author = {Maximilian Kellner and Mariana Ferrandon Cervantes and Yuandong Pan and Ruodan Lu and Ioannis Brilakis and Alexander Reiterer},
-keywords = {3D deep learning, Bridge segmentation, Benchmark, Point cloud processing, Domain adaptation},
+      title={SemanticBridge - A Dataset for 3D Semantic Segmentation of Bridges and Domain Gap Analysis}, 
+      author={Maximilian Kellner and Mariana Ferrandon Cervantes and Yuandong Pan and Ruodan Lu and Ioannis Brilakis and Alexander Reiterer},
+      year={2025},
+      eprint={2512.15369},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2512.15369}, 
 }
 ```
 ```
-@article{KELLNER2025106021,
-title = {3D bridge segmentation using semi-supervised domain adaptation},
-journal = {Automation in Construction},
-volume = {172},
-pages = {106021},
-year = {2025},
-issn = {0926-5805},
-doi = {https://doi.org/10.1016/j.autcon.2025.106021},
-url = {https://www.sciencedirect.com/science/article/pii/S0926580525000615},
-author = {Maximilian Kellner and Timothy König and Jan-Iwo Jäkel and Katharina Klemt-Albert and Alexander Reiterer},
-keywords = {3D deep learning, Bridge segmentation, Point cloud generation, Point cloud processing, Domain adaptation},
+@article{SynthBridge,
+	title = {3D bridge segmentation using semi-supervised domain adaptation},
+	journal = {Automation in Construction},
+	volume = {172},
+	pages = {106021},
+	year = {2025},
+	issn = {0926-5805},
+	doi = {https://doi.org/10.1016/j.autcon.2025.106021},
+	url = {https://www.sciencedirect.com/science/article/pii/S0926580525000615},
+	author = {Maximilian Kellner and Timothy König and Jan-Iwo Jäkel and Katharina Klemt-Albert and Alexander Reiterer},
+	keywords = {3D deep learning, Bridge segmentation, Point cloud generation, Point cloud processing, Domain adaptation},
 }
 ```
 
