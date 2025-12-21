@@ -2,6 +2,7 @@
 ONLY SUPPORTED RUNNING ON CUDA -> spconv and pointsops deps
 
 Always stores just the reduced point cloud!
+Evaluation is on sub cloud basis!
 """
 
 from os.path import join
