@@ -63,7 +63,7 @@ Two examples, colored according to their classes, are visualized below:
 
 ### Real
 
-We scanned 20 real world bridges. 10 located in Germany and 10 in UK. In all cases a TLS scanner was used. Additionally we scanned 6 bridges with a MLS scanner.
+We scanned 20 real world bridges. 10 located in Germany and 10 in UK. In all cases a TLS scanner was used. Additionally we scanned 7 bridges with a MLS scanner.
 
 <center>
 
