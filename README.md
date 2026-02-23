@@ -95,9 +95,9 @@ The following real-world bridges are for testing purposes:
 
 ### Download
 
-The synthetic data can be downloaded via the [mobilithek](https://mobilithek.info/offers/829756627880919040).
+The synthetic data can be downloaded via the [mobilithek](https://mobilithek.info/offers/829756627880919040) or directly via [zenodo](https://zenodo.org/records/18593422)
 
-The real data can be downloaded via the [mobilithek](https://mobilithek.info/offers/939531201542860800)
+The real data can be downloaded via the [mobilithek](https://mobilithek.info/offers/939531201542860800) or directly via [zenodo](https://zenodo.org/records/18738225)
 
 ## Citation
 
