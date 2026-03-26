@@ -1,8 +1,8 @@
 # 3d bridge segmentation
 
 The objective of the present project is the automated creation of digital twins for existing bridge structures. To this end, the initial step involves semantic segmentation of the provided point clouds prior to subsequent processing. This repository contains:
-1. A set of 23 synthetic bridges that were scanned and annotated automatically
-2. A set of 20 real-world bridges scanned and manually annotated
+1. A set of 20 real-world bridges scanned and manually annotated
+2. A set of 23 synthetic bridges that were scanned and annotated automatically
 3. Simple basic starting code to train 3 different 3D models for large 3D point cloud scenes
 
 For more details we refer to the following two paper:
@@ -37,33 +37,63 @@ python3 train.py <config.yml>
 
 ## Data
 
-### Synthetic
+We scanned 20 real world bridges. 10 located in Germany and 10 in UK. In all cases a Terrestrial Laser Scanning (TLS) scanner was used. Additionally we scanned 7 bridges with a Mobile Laser Scanning (MLS) scanner.
 
-In total, we offer 23 different scenes of bridges. For simplicity we focused on the following classes:
 
-<center>
+### Data split
 
-| ID | Class name | nr points |
-| -------- | ------- | ------- |
-| 0 | unlabeled | 628.371 |
-| 1 | ground | 66.630.880 |
-| 2 | high vegetation | 10.532.641 |
-| 3 | abutment | 10.838.768 |
-| 4 | superstructure | 42.497.680 |
-| 5 | top surface | 48.302.362 |
-| 6 | railing | 2.169.738 |
-| 7 | traffic sign | 341.185 |
-| 8 | pillar | 3.462.674 |
+- Total real bridge point clouds: **20**
+- Training set: **15**
+- Testing set: **5**
 
-</center>
+### Real Data
 
-Two examples, colored according to their classes, are visualized below:
+For lightweight GitHub visualization, training data examples are shown below (15 samples, 5 per row). In each cell: top is point cloud preview, bottom is semantic annotation (`_gt`).
 
-<img src="docs/bridge_synth_example_0.png" width="425"/> <img src="docs/bridge_synth_example_1.png" width="425"/>
+<table>
+  <tr>
+    <td align="center" valign="top"><sub>bridge_2_cb_faro</sub><br/><img src="docs/train/bridge_2_cb_faro.png" width="150" height="110"/><br/><img src="docs/train/bridge_2_cb_faro_gt.png" width="150" height="110"/></td>
+    <td align="center" valign="top"><sub>bridge_3_cb_faro</sub><br/><img src="docs/train/bridge_3_cb_faro.png" width="150" height="110"/><br/><img src="docs/train/bridge_3_cb_faro_gt.png" width="150" height="110"/></td>
+    <td align="center" valign="top"><sub>bridge_4_cb_faro</sub><br/><img src="docs/train/bridge_4_cb_faro.png" width="150" height="110"/><br/><img src="docs/train/bridge_4_cb_faro_gt.png" width="150" height="110"/></td>
+    <td align="center" valign="top"><sub>bridge_5_cb_faro</sub><br/><img src="docs/train/bridge_5_cb_faro.png" width="150" height="110"/><br/><img src="docs/train/bridge_5_cb_faro_gt.png" width="150" height="110"/></td>
+    <td align="center" valign="top"><sub>bridge_6_cb_faro</sub><br/><img src="docs/train/bridge_6_cb_faro.png" width="150" height="110"/><br/><img src="docs/train/bridge_6_cb_faro_gt.png" width="150" height="110"/></td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><sub>bridge_8_cb_faro</sub><br/><img src="docs/train/bridge_8_cb_faro.png" width="150" height="110"/><br/><img src="docs/train/bridge_8_cb_faro_gt.png" width="150" height="110"/></td>
+    <td align="center" valign="top"><sub>bridge_9_cb_faro</sub><br/><img src="docs/train/bridge_9_cb_faro.png" width="150" height="110"/><br/><img src="docs/train/bridge_9_cb_faro_gt.png" width="150" height="110"/></td>
+    <td align="center" valign="top"><sub>bridge_10_cb_faro</sub><br/><img src="docs/train/bridge_10_cb_faro.png" width="150" height="110"/><br/><img src="docs/train/bridge_10_cb_faro_gt.png" width="150" height="110"/></td>
+    <td align="center" valign="top"><sub>bridge_11_fr_rtc</sub><br/><img src="docs/train/bridge_11_fr_rtc.png" width="150" height="110"/><br/><img src="docs/train/bridge_11_fr_rtc_gt.png" width="150" height="110"/></td>
+    <td align="center" valign="top"><sub>bridge_12_fr_rtc</sub><br/><img src="docs/train/bridge_12_fr_rtc.png" width="150" height="110"/><br/><img src="docs/train/bridge_12_fr_rtc_gt.png" width="150" height="110"/></td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><sub>bridge_14_fr_rtc</sub><br/><img src="docs/train/bridge_14_fr_rtc.png" width="150" height="110"/><br/><img src="docs/train/bridge_14_fr_rtc_gt.png" width="150" height="110"/></td>
+    <td align="center" valign="top"><sub>bridge_15_fr_rtc</sub><br/><img src="docs/train/bridge_15_fr_rtc.png" width="150" height="110"/><br/><img src="docs/train/bridge_15_fr_rtc_gt.png" width="150" height="110"/></td>
+    <td align="center" valign="top"><sub>bridge_16_fr_rtc</sub><br/><img src="docs/train/bridge_16_fr_rtc.png" width="150" height="110"/><br/><img src="docs/train/bridge_16_fr_rtc_gt.png" width="150" height="110"/></td>
+    <td align="center" valign="top"><sub>bridge_18_fr_rtc</sub><br/><img src="docs/train/bridge_18_fr_rtc.png" width="150" height="110"/><br/><img src="docs/train/bridge_18_fr_rtc_gt.png" width="150" height="110"/></td>
+    <td align="center" valign="top"><sub>bridge_20_fr_rtc</sub><br/><img src="docs/train/bridge_20_fr_rtc.png" width="150" height="110"/><br/><img src="docs/train/bridge_20_fr_rtc_gt.png" width="150" height="110"/></td>
+  </tr>
+</table>
 
-### Real
+The following real-world bridges are for testing purposes:
+- bridge_1_cb_faro
+- bridge_7_cb_faro
+- bridge_13_fr_rtc/blk
+- bridge_17_fr_rtc/blk
+- bridge_19_fr_rtc/blk
 
-We scanned 20 real world bridges. 10 located in Germany and 10 in UK. In all cases a TLS scanner was used. Additionally we scanned 7 bridges with a MLS scanner.
+Test data examples are shown below (point cloud on top, semantic annotation `_gt` on bottom).
+
+<table>
+  <tr>
+    <td align="center" valign="top"><sub>bridge_1_cb_faro</sub><br/><img src="docs/test/bridge_1_cb_faro.png" width="150" height="110"/><br/><img src="docs/test/bridge_1_cb_faro_gt.png" width="150" height="110"/></td>
+    <td align="center" valign="top"><sub>bridge_7_cb_faro</sub><br/><img src="docs/test/bridge_7_cb_faro.png" width="150" height="110"/><br/><img src="docs/test/bridge_7_cb_faro_gt.png" width="150" height="110"/></td>
+    <td align="center" valign="top"><sub>bridge_13_fr_rtc</sub><br/><img src="docs/test/bridge_13_fr_rtc.png" width="150" height="110"/><br/><img src="docs/test/bridge_13_fr_rtc_gt.png" width="150" height="110"/></td>
+    <td align="center" valign="top"><sub>bridge_17_fr_rtc</sub><br/><img src="docs/test/bridge_17_fr_rtc.png" width="150" height="110"/><br/><img src="docs/test/bridge_17_fr_rtc_gt.png" width="150" height="110"/></td>
+    <td align="center" valign="top"><sub>bridge_19_fr_rtc</sub><br/><img src="docs/test/bridge_19_fr_rtc.png" width="150" height="110"/><br/><img src="docs/test/bridge_19_fr_rtc_gt.png" width="150" height="110"/></td>
+  </tr>
+</table>
+
+In total, we offer 20 different scenes of bridges. We focus on the following classes:
 
 <center>
 
@@ -81,17 +111,27 @@ We scanned 20 real world bridges. 10 located in Germany and 10 in UK. In all cas
 
 </center>
 
-<img src="docs/bridge_real_rgb.png" width="850"/>
-<img src="docs/bridge_real_semantic.png" width="850"/>
+### Synthetic
 
-### data split
+In addition, we offer 23 different scenes of bridges. For simplicity we focused on the following classes:
 
-The following real-world bridges are for testing purposes:
-- bridge_1_cb_faro
-- bridge_7_cb_faro
-- bridge_13_fr_rtc/blk
-- bridge_17_fr_rtc/blk
-- bridge_19_fr_rtc/blk
+<center>
+
+| ID | Class name | nr points |
+| -------- | ------- | ------- |
+| 0 | unlabeled | 628.371 |
+| 1 | ground | 66.630.880 |
+| 2 | high vegetation | 10.532.641 |
+| 3 | abutment | 10.838.768 |
+| 4 | superstructure | 42.497.680 |
+| 5 | top surface | 48.302.362 |
+| 6 | railing | 2.169.738 |
+| 7 | traffic sign | 341.185 |
+| 8 | pillar | 3.462.674 |
+
+</center>
+
+
 
 ### Download
 
