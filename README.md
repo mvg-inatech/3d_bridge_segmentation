@@ -52,25 +52,25 @@ For lightweight GitHub visualization, training data examples are shown below (15
 
 <table>
   <tr>
-    <td align="center" valign="top"><sub>bridge_2_cb_faro</sub><br/><img src="docs/train/bridge_2_cb_faro.png" width="150" height="110"/><br/><img src="docs/train/bridge_2_cb_faro_gt.png" width="150" height="110"/></td>
-    <td align="center" valign="top"><sub>bridge_3_cb_faro</sub><br/><img src="docs/train/bridge_3_cb_faro.png" width="150" height="110"/><br/><img src="docs/train/bridge_3_cb_faro_gt.png" width="150" height="110"/></td>
-    <td align="center" valign="top"><sub>bridge_4_cb_faro</sub><br/><img src="docs/train/bridge_4_cb_faro.png" width="150" height="110"/><br/><img src="docs/train/bridge_4_cb_faro_gt.png" width="150" height="110"/></td>
-    <td align="center" valign="top"><sub>bridge_5_cb_faro</sub><br/><img src="docs/train/bridge_5_cb_faro.png" width="150" height="110"/><br/><img src="docs/train/bridge_5_cb_faro_gt.png" width="150" height="110"/></td>
-    <td align="center" valign="top"><sub>bridge_6_cb_faro</sub><br/><img src="docs/train/bridge_6_cb_faro.png" width="150" height="110"/><br/><img src="docs/train/bridge_6_cb_faro_gt.png" width="150" height="110"/></td>
+    <td align="center" valign="top"><sub>bridge_2_cb_faro</sub><br/><img src="docs/thumbs/train/bridge_2_cb_faro.jpg" width="150" height="110"/><br/><img src="docs/thumbs/train/bridge_2_cb_faro_gt.png" width="150" height="110"/></td>
+    <td align="center" valign="top"><sub>bridge_3_cb_faro</sub><br/><img src="docs/thumbs/train/bridge_3_cb_faro.jpg" width="150" height="110"/><br/><img src="docs/thumbs/train/bridge_3_cb_faro_gt.png" width="150" height="110"/></td>
+    <td align="center" valign="top"><sub>bridge_4_cb_faro</sub><br/><img src="docs/thumbs/train/bridge_4_cb_faro.jpg" width="150" height="110"/><br/><img src="docs/thumbs/train/bridge_4_cb_faro_gt.png" width="150" height="110"/></td>
+    <td align="center" valign="top"><sub>bridge_5_cb_faro</sub><br/><img src="docs/thumbs/train/bridge_5_cb_faro.jpg" width="150" height="110"/><br/><img src="docs/thumbs/train/bridge_5_cb_faro_gt.png" width="150" height="110"/></td>
+    <td align="center" valign="top"><sub>bridge_6_cb_faro</sub><br/><img src="docs/thumbs/train/bridge_6_cb_faro.jpg" width="150" height="110"/><br/><img src="docs/thumbs/train/bridge_6_cb_faro_gt.png" width="150" height="110"/></td>
   </tr>
   <tr>
-    <td align="center" valign="top"><sub>bridge_8_cb_faro</sub><br/><img src="docs/train/bridge_8_cb_faro.png" width="150" height="110"/><br/><img src="docs/train/bridge_8_cb_faro_gt.png" width="150" height="110"/></td>
-    <td align="center" valign="top"><sub>bridge_9_cb_faro</sub><br/><img src="docs/train/bridge_9_cb_faro.png" width="150" height="110"/><br/><img src="docs/train/bridge_9_cb_faro_gt.png" width="150" height="110"/></td>
-    <td align="center" valign="top"><sub>bridge_10_cb_faro</sub><br/><img src="docs/train/bridge_10_cb_faro.png" width="150" height="110"/><br/><img src="docs/train/bridge_10_cb_faro_gt.png" width="150" height="110"/></td>
-    <td align="center" valign="top"><sub>bridge_11_fr_rtc</sub><br/><img src="docs/train/bridge_11_fr_rtc.png" width="150" height="110"/><br/><img src="docs/train/bridge_11_fr_rtc_gt.png" width="150" height="110"/></td>
-    <td align="center" valign="top"><sub>bridge_12_fr_rtc</sub><br/><img src="docs/train/bridge_12_fr_rtc.png" width="150" height="110"/><br/><img src="docs/train/bridge_12_fr_rtc_gt.png" width="150" height="110"/></td>
+    <td align="center" valign="top"><sub>bridge_8_cb_faro</sub><br/><img src="docs/thumbs/train/bridge_8_cb_faro.jpg" width="150" height="110"/><br/><img src="docs/thumbs/train/bridge_8_cb_faro_gt.png" width="150" height="110"/></td>
+    <td align="center" valign="top"><sub>bridge_9_cb_faro</sub><br/><img src="docs/thumbs/train/bridge_9_cb_faro.jpg" width="150" height="110"/><br/><img src="docs/thumbs/train/bridge_9_cb_faro_gt.png" width="150" height="110"/></td>
+    <td align="center" valign="top"><sub>bridge_10_cb_faro</sub><br/><img src="docs/thumbs/train/bridge_10_cb_faro.jpg" width="150" height="110"/><br/><img src="docs/thumbs/train/bridge_10_cb_faro_gt.png" width="150" height="110"/></td>
+    <td align="center" valign="top"><sub>bridge_11_fr_rtc</sub><br/><img src="docs/thumbs/train/bridge_11_fr_rtc.jpg" width="150" height="110"/><br/><img src="docs/thumbs/train/bridge_11_fr_rtc_gt.png" width="150" height="110"/></td>
+    <td align="center" valign="top"><sub>bridge_12_fr_rtc</sub><br/><img src="docs/thumbs/train/bridge_12_fr_rtc.jpg" width="150" height="110"/><br/><img src="docs/thumbs/train/bridge_12_fr_rtc_gt.png" width="150" height="110"/></td>
   </tr>
   <tr>
-    <td align="center" valign="top"><sub>bridge_14_fr_rtc</sub><br/><img src="docs/train/bridge_14_fr_rtc.png" width="150" height="110"/><br/><img src="docs/train/bridge_14_fr_rtc_gt.png" width="150" height="110"/></td>
-    <td align="center" valign="top"><sub>bridge_15_fr_rtc</sub><br/><img src="docs/train/bridge_15_fr_rtc.png" width="150" height="110"/><br/><img src="docs/train/bridge_15_fr_rtc_gt.png" width="150" height="110"/></td>
-    <td align="center" valign="top"><sub>bridge_16_fr_rtc</sub><br/><img src="docs/train/bridge_16_fr_rtc.png" width="150" height="110"/><br/><img src="docs/train/bridge_16_fr_rtc_gt.png" width="150" height="110"/></td>
-    <td align="center" valign="top"><sub>bridge_18_fr_rtc</sub><br/><img src="docs/train/bridge_18_fr_rtc.png" width="150" height="110"/><br/><img src="docs/train/bridge_18_fr_rtc_gt.png" width="150" height="110"/></td>
-    <td align="center" valign="top"><sub>bridge_20_fr_rtc</sub><br/><img src="docs/train/bridge_20_fr_rtc.png" width="150" height="110"/><br/><img src="docs/train/bridge_20_fr_rtc_gt.png" width="150" height="110"/></td>
+    <td align="center" valign="top"><sub>bridge_14_fr_rtc</sub><br/><img src="docs/thumbs/train/bridge_14_fr_rtc.jpg" width="150" height="110"/><br/><img src="docs/thumbs/train/bridge_14_fr_rtc_gt.png" width="150" height="110"/></td>
+    <td align="center" valign="top"><sub>bridge_15_fr_rtc</sub><br/><img src="docs/thumbs/train/bridge_15_fr_rtc.jpg" width="150" height="110"/><br/><img src="docs/thumbs/train/bridge_15_fr_rtc_gt.png" width="150" height="110"/></td>
+    <td align="center" valign="top"><sub>bridge_16_fr_rtc</sub><br/><img src="docs/thumbs/train/bridge_16_fr_rtc.jpg" width="150" height="110"/><br/><img src="docs/thumbs/train/bridge_16_fr_rtc_gt.png" width="150" height="110"/></td>
+    <td align="center" valign="top"><sub>bridge_18_fr_rtc</sub><br/><img src="docs/thumbs/train/bridge_18_fr_rtc.jpg" width="150" height="110"/><br/><img src="docs/thumbs/train/bridge_18_fr_rtc_gt.png" width="150" height="110"/></td>
+    <td align="center" valign="top"><sub>bridge_20_fr_rtc</sub><br/><img src="docs/thumbs/train/bridge_20_fr_rtc.jpg" width="150" height="110"/><br/><img src="docs/thumbs/train/bridge_20_fr_rtc_gt.png" width="150" height="110"/></td>
   </tr>
 </table>
 
@@ -85,11 +85,11 @@ Test data examples are shown below (point cloud on top, semantic annotation `_gt
 
 <table>
   <tr>
-    <td align="center" valign="top"><sub>bridge_1_cb_faro</sub><br/><img src="docs/test/bridge_1_cb_faro.png" width="150" height="110"/><br/><img src="docs/test/bridge_1_cb_faro_gt.png" width="150" height="110"/></td>
-    <td align="center" valign="top"><sub>bridge_7_cb_faro</sub><br/><img src="docs/test/bridge_7_cb_faro.png" width="150" height="110"/><br/><img src="docs/test/bridge_7_cb_faro_gt.png" width="150" height="110"/></td>
-    <td align="center" valign="top"><sub>bridge_13_fr_rtc</sub><br/><img src="docs/test/bridge_13_fr_rtc.png" width="150" height="110"/><br/><img src="docs/test/bridge_13_fr_rtc_gt.png" width="150" height="110"/></td>
-    <td align="center" valign="top"><sub>bridge_17_fr_rtc</sub><br/><img src="docs/test/bridge_17_fr_rtc.png" width="150" height="110"/><br/><img src="docs/test/bridge_17_fr_rtc_gt.png" width="150" height="110"/></td>
-    <td align="center" valign="top"><sub>bridge_19_fr_rtc</sub><br/><img src="docs/test/bridge_19_fr_rtc.png" width="150" height="110"/><br/><img src="docs/test/bridge_19_fr_rtc_gt.png" width="150" height="110"/></td>
+    <td align="center" valign="top"><sub>bridge_1_cb_faro</sub><br/><img src="docs/thumbs/test/bridge_1_cb_faro.jpg" width="150" height="110"/><br/><img src="docs/thumbs/test/bridge_1_cb_faro_gt.png" width="150" height="110"/></td>
+    <td align="center" valign="top"><sub>bridge_7_cb_faro</sub><br/><img src="docs/thumbs/test/bridge_7_cb_faro.jpg" width="150" height="110"/><br/><img src="docs/thumbs/test/bridge_7_cb_faro_gt.png" width="150" height="110"/></td>
+    <td align="center" valign="top"><sub>bridge_13_fr_rtc</sub><br/><img src="docs/thumbs/test/bridge_13_fr_rtc.jpg" width="150" height="110"/><br/><img src="docs/thumbs/test/bridge_13_fr_rtc_gt.png" width="150" height="110"/></td>
+    <td align="center" valign="top"><sub>bridge_17_fr_rtc</sub><br/><img src="docs/thumbs/test/bridge_17_fr_rtc.jpg" width="150" height="110"/><br/><img src="docs/thumbs/test/bridge_17_fr_rtc_gt.png" width="150" height="110"/></td>
+    <td align="center" valign="top"><sub>bridge_19_fr_rtc</sub><br/><img src="docs/thumbs/test/bridge_19_fr_rtc.jpg" width="150" height="110"/><br/><img src="docs/thumbs/test/bridge_19_fr_rtc_gt.png" width="150" height="110"/></td>
   </tr>
 </table>
 
