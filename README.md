@@ -7,7 +7,7 @@ The objective of the present project is the automated creation of digital twins 
 
 For more details we refer to the following two paper:
 - [3D bridge segmentation using semi-supervised domain adaptation](https://www.sciencedirect.com/science/article/pii/S0926580525000615?via%3Dihub)
-- [SemanticBridge - A Dataset for 3D Semantic Segmentation of Bridges and Domain Gap Analysis]([https://arxiv.org/abs/2512.15369](https://www.sciencedirect.com/science/article/pii/S2666165926000700))
+- [SemanticBridge - A Dataset for 3D Semantic Segmentation of Bridges and Domain Gap Analysis](https://www.sciencedirect.com/science/article/pii/S2666165926000700)
 
 ## Code
 
