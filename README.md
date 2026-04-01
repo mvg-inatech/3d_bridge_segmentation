@@ -145,13 +145,15 @@ This synthetic data was created for the work presented in [3D bridge segmentatio
 
 ```
 @article{SemanticBridge,
-      title={SemanticBridge - A Dataset for 3D Semantic Segmentation of Bridges and Domain Gap Analysis}, 
-      author={Maximilian Kellner and Mariana Ferrandon Cervantes and Yuandong Pan and Ruodan Lu and Ioannis Brilakis and Alexander Reiterer},
-      year={2025},
-      eprint={2512.15369},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2512.15369}, 
+title = {SemanticBridge—A dataset for 3D semantic segmentation of bridges and domain gap analysis},
+journal = {Developments in the Built Environment},
+volume = {26},
+pages = {100912},
+year = {2026},
+issn = {2666-1659},
+doi = {https://doi.org/10.1016/j.dibe.2026.100912},
+url = {https://www.sciencedirect.com/science/article/pii/S2666165926000700},
+author = {Maximilian Kellner and Mariana {Ferrandon Cervantes} and Yuandong Pan and Ruodan Lu and Ioannis Brilakis and Alexander Reiterer},
 }
 ```
 ```
